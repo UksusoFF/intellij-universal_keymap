@@ -10,9 +10,6 @@ import java.util.Collections;
 import java.util.List;
 import java.util.function.Function;
 
-/**
- * @author Dmitry Matveev
- */
 public class UniversalKeymap implements BundledKeymapProvider {
     @NotNull
     @Override
