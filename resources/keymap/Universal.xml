@@ -31,8 +31,8 @@
     <keyboard-shortcut first-keystroke="meta w"/>
   </action>
   <action id="EditorDuplicate">
-    <keyboard-shortcut first-keystroke="ctrl d" />
-    <keyboard-shortcut first-keystroke="meta d" />
+    <keyboard-shortcut first-keystroke="ctrl d"/>
+    <keyboard-shortcut first-keystroke="meta d"/>
   </action>
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="ctrl down"/>
@@ -69,5 +69,10 @@
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="alt button1"/>
     <mouse-shortcut keystroke="ctrl button1"/>
+  </action>
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="shift alt j"/>
+    <keyboard-shortcut first-keystroke="shift ctrl j"/>
+    <keyboard-shortcut first-keystroke="shift meta j"/>
   </action>
 </keymap>
