@@ -18,21 +18,27 @@
   </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="alt left"/>
-    <mouse-shortcut keystroke="button4"/>
     <keyboard-shortcut first-keystroke="meta open_bracket"/>
+    <mouse-shortcut keystroke="button4"/>
   </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="alt right"/>
-    <mouse-shortcut keystroke="button5"/>
     <keyboard-shortcut first-keystroke="meta close_bracket"/>
+    <mouse-shortcut keystroke="button5"/>
   </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w"/>
     <keyboard-shortcut first-keystroke="meta w"/>
   </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
   <action id="EditorToggleCase">
-    <keyboard-shortcut first-keystroke="ctrl up"/>
     <keyboard-shortcut first-keystroke="ctrl down"/>
+    <keyboard-shortcut first-keystroke="ctrl up"/>
+    <keyboard-shortcut first-keystroke="meta down"/>
+    <keyboard-shortcut first-keystroke="meta up"/>
   </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl r"/>
@@ -63,11 +69,5 @@
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="alt button1"/>
     <mouse-shortcut keystroke="ctrl button1"/>
-  </action>
-  <action id="osmedile.intellij.stringmanip.ToLowerCaseAction">
-    <keyboard-shortcut first-keystroke="ctrl down"/>
-  </action>
-  <action id="osmedile.intellij.stringmanip.ToUpperCaseAction">
-    <keyboard-shortcut first-keystroke="ctrl up"/>
   </action>
 </keymap>
