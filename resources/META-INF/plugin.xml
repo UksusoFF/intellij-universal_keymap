@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.intellij.plugins.universal_keymap</id>
   <name>Universal Keymap</name>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <vendor email="uksusoff@yandex.ru" url="https://github.com/UksusoFF">UksusoFF</vendor>
 
   <description>

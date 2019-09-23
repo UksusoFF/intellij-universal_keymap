@@ -1,4 +1,12 @@
 <keymap version="1" name="Universal" parent="$default">
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="ctrl z"/>
+    <keyboard-shortcut first-keystroke="meta z"/>
+  </action>
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z"/>
+    <keyboard-shortcut first-keystroke="shift meta z"/>
+  </action>
   <action id="$Copy">
     <keyboard-shortcut first-keystroke="ctrl c"/>
     <keyboard-shortcut first-keystroke="meta c"/>
