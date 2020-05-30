@@ -88,4 +88,5 @@
     <keyboard-shortcut first-keystroke="ctrl enter" />
     <keyboard-shortcut first-keystroke="meta enter" />
   </action>
+  <action id="EditorJoinLines" />
 </keymap>
