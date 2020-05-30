@@ -1,20 +1,19 @@
 <idea-plugin>
   <id>com.intellij.plugins.universal_keymap</id>
   <name>Universal Keymap</name>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <vendor email="uksusoff@yandex.ru" url="https://github.com/UksusoFF">UksusoFF</vendor>
 
   <description>
     Universal Keymap for IntelliJ-based IDEs: IntelliJ IDEA, WebStorm, PhpStorm, Rider, Android Studio, and others.
   </description>
 
-  <idea-version since-build="181"/>
-
-  <depends>com.intellij.modules.lang</depends>
+  <depends>com.intellij.modules.platform</depends>
 
   <extensions defaultExtensionNs="com.intellij">
-    <bundledKeymapProvider implementation="com.intellij.keymaps.UniversalKeymap" />
+    <bundledKeymap file="Universal.xml"/>
   </extensions>
 
   <actions/>
+
 </idea-plugin>
